@@ -14,6 +14,7 @@ function validation()
         alert('name is required');
         
         // document.querySelector('#name')
+        document.getElementById('nameErr').innerHTML="Name is required";
         document.getElementById('name').focus();
     }
 
